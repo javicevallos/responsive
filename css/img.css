@@ -1,0 +1,142 @@
+figure {
+    cursor: pointer;
+    display:  inline-block;
+    padding: 30px;
+    
+}
+
+.imagen1{
+    text-align: center;
+    background-color: #669999;
+   
+}
+
+.imagen{
+    text-align: center;
+    background-color: #F7D988;
+   
+}
+
+#imagene img{
+    width: 1130px;
+	transition-property: border;
+	transition-duration: 0.5s;
+    box-shadow: 4px 8px;
+}
+
+#imagene img:hover{
+	border: solid 4px black;
+}
+
+
+#imagen2 img{
+    width: 530px;
+    height: 400px;
+	transition-duration: rotate(-1deg) ;
+     box-shadow: 4px 8px;
+}
+
+
+#imagen2 img:hover{
+	transform: rotate(20deg);
+}
+
+#imagen3 img{
+    width: 530px;
+    height: 400px;
+	transition-property: width;
+	transition-duration: 0.5s;
+    box-shadow: 4px 8px;
+}
+
+#imagen3 img:hover{
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+#contenido1{
+   background-color:  #F3902D  ;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+    
+}
+
+
+#imagen11 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+
+
+#imagen13 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
+
+
+#imagen12 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+#imagen15 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: grayscale(90%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+#imagen17 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+	filter: grayscale(60%);
+}
+#imagen14 img{
+    box-shadow: 4px 8px;
+}
+
+
+
+
+#imagen21 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+#imagen22 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: grayscale(90%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+#imagen23 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
+#imagen24 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: grayscale(90%); /* Chrome, Safari, Opera */
+	filter: grayscale(80%);
+}
+
+#imagen25 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: sepia(100%); /* Chrome, Safari, Opera */
+	filter: sepia(70%);
+}
+#imagen26 img{
+    box-shadow: 4px 8px;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(50%);
+}
